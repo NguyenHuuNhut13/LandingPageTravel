@@ -41,6 +41,10 @@
         "DB_CONNECTION": "sqlite",
         "DB_DATABASE": ":memory:",
         "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
-        "DATA_CACHE_DIR": "/tmp/storage/framework/cache"
+        "DATA_CACHE_DIR": "/tmp/storage/framework/cache",
+        "APP_SERVICES_CACHE": "/tmp/storage/framework/services.php",
+        "APP_PACKAGES_CACHE": "/tmp/storage/framework/packages.php",
+        "APP_CONFIG_CACHE": "/tmp/storage/framework/config.php",
+        "APP_ROUTES_CACHE": "/tmp/storage/framework/routes.php"
     }
 }
