@@ -1187,14 +1187,16 @@ button, input, select, textarea {
         background: var(--dark);
         flex-direction: column;
         gap: 0;
-        padding: 20px 0;
+        padding: 0;
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.4s ease-in-out;
-        border-bottom: 2px solid var(--primary);
+        transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+        border-bottom: none;
     }
     .navbar.active {
         max-height: 400px;
+        padding: 20px 0;
+        border-bottom: 2px solid var(--primary);
     }
     .nav-link {
         padding: 12px 24px;
@@ -1213,7 +1215,7 @@ button, input, select, textarea {
 
     /* Hero */
     .hero-section {
-        padding-top: 140px;
+        padding-top: 160px;
         height: auto;
         min-height: 100vh;
         padding-bottom: 50px;
@@ -1266,7 +1268,7 @@ button, input, select, textarea {
 
 @media (max-width: 576px) {
     .hero-section {
-        padding-top: 120px;
+        padding-top: 140px;
     }
     .hero-title {
         font-size: 1.8rem;
