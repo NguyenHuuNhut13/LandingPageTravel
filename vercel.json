@@ -38,7 +38,9 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "CACHE_STORE": "array",
-        "VIEW_COMPILED_PATH": "/tmp",
-        "DATA_CACHE_DIR": "/tmp"
+        "DB_CONNECTION": "sqlite",
+        "DB_DATABASE": ":memory:",
+        "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
+        "DATA_CACHE_DIR": "/tmp/storage/framework/cache"
     }
 }
